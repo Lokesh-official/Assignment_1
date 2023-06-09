@@ -1,0 +1,23 @@
+header {
+    background: lightpink;
+    color: green;
+    font-size: 20px;
+}
+
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+    color: red;
+    text-align: center;
+}
+
+h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color: green;
+    text-align: center;
+}s
+
+p {
+    color: rgb(7, 7, 7);
+}

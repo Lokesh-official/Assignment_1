@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="This is MyPizza" />
+        <meta name="description" content="Order the best, Leave the rest" />
+        <link rel="shortcut icon" href="MyPizza.jpeg" type="image/x-icon" />
+        <link href="style.css" rel="stylesheet" />
+        <title>MyPizza</title>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <h2>MyPizza</h2>
+        </header>
+
+        <!--Main-->
+        <main>
+            <form action="Submit.php" method="POST">
+                <div class="label">
+                    <label for="order">Order details</label>
+                </div>
+                <br>
+                <!--Details of customer-->
+                <fieldset>
+                    <p><b>Your details</b></p>
+                    <input type="text" id="name" name="name" placeholder="Name"><br>
+                    <input type="email" id="email" name="email" placeholder="Email address"><br>
+                    <input type="text-area" id="address" name="address" maxlength="30" placeholder="Address"><br>
+                    <input type="text" id="mobile" name="mobile" placeholder="Mobile number" maxlength="10" pattern="[0-9]{10}">
+                </fieldset>
+                <fieldset>
+                    <!-- Size for pizza-->
+                    <fieldset>
+                        <p><b>Select a size For your Pizza</b></p>
+                        <select id="Choose" name="Choose" required>
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                            <option>Extra Large</option>
+                        </select>
+                    </fieldset>
+                    <!--Choose the crust-->
+                    <fieldset>
+                        <p><b>Choose Crust</b></p>
+                        <select id="base" name="base" required>
+                            <option>Cheese Crust</option>
+                            <option>Flat Bread Crust</option>
+                            <option>Thick Crust Pizza</option>
+                        </select>
+                    </fieldset>
+                    <!--Cheese type.-->
+                    <fieldset>
+                        <p><b>Select Cheese type</b></p>
+                        <select id="Cheese" name="Cheese" required>
+                            <option>Parmesan Cheese</option>
+                            <option>Mozrella Cheese</option>
+                            <option>Cheddar Cheese</option>
+                        </select>
+                    </fieldset>
+                    <!--Types of sauces!-->
+                    <fieldset>
+                        <p><b>Select a sauce</b></p>
+                        <!--sauce 1!-->
+                        <select id="sauce" name="sauce" required>
+                            <option>None</option>
+                            <option>Pesto Sauce</option>
+                            <option>Alfredo</option>
+                            <option>Creamy BBQ</option>
+                            <option>Peppery Red Sauce</option>
+                            <option>Creamy Alfredo Sauce</option>
+                        </select>
+                        <!--sauce 2!-->
+                        <select id="sauce" name="sauce" required>
+                            <option>None</option>
+                            <option>Pesto Sauce</option>
+                            <option>Alfredo</option>
+                            <option>Creamy BBQ</option>
+                            <option>Peppery Red Sauce</option>
+                            <option>Creamy Alfredo Sauce</option>
+                        </select>
+                        <!--sauce 3!-->
+                        <select id="sauce" name="sauce" required>
+                            <option>None</option>
+                            <option>Pesto Sauce</option>
+                            <option>Alfredo</option>
+                            <option>Creamy BBQ</option>
+                            <option>Peppery Red Sauce</option>
+                            <option>Creamy Alfredo Sauce</option>
+                        </select>
+                        <!--sauce 4!-->
+                        <select id="sauce" name="sauce" required>
+                            <option>None</option>
+                            <option>Pesto Sauce</option>
+                            <option>Alfredo</option>
+                            <option>Creamy BBQ</option>
+                            <option>Peppery Red Sauce</option>
+                            <option>Creamy Alfredo Sauce</option>
+                        </select>
+                        <!--sauce 5!-->
+                        <select id="sauce" name="sauce" required>
+                            <option>None</option>
+                            <option>Pesto Sauce</option>
+                            <option>Alfredo</option>
+                            <option>Creamy BBQ</option>
+                            <option>Peppery Red Sauce</option>
+                            <option>Creamy Alfredo Sauce</option>
+                        </select>
+                    </fieldset>
+                    <!--Toppings-->
+                    <fieldset>
+                        <p><b>Select toppings</b></p>
+                        <!--Topping 1-->
+                        <select id="topping" name="topping" required>
+                            <option>None</option>
+                            <option>Onions</option>
+                            <option>Tomatoes</option>
+                            <option>Paneer</option>
+                            <option>Pineapple</option>
+                            <option>Mushroom</option>
+                            <option>Green Olives</option>
+                            <option>Black Olives</option>
+                        </select>
+                        <!--Topping 2-->
+                        <select id="topping" name="topping" required>
+                            <option>None</option>
+                            <option>Onions</option>
+                            <option>Tomatoes</option>
+                            <option>Paneer</option>
+                            <option>Pineapple</option>
+                            <option>Mushroom</option>
+                            <option>Green Olives</option>
+                            <option>Black Olives</option>
+                        </select>
+                        <!--Topping 3-->
+                        <select id="topping" name="topping" required>
+                            <option>None</option>
+                            <option>Onions</option>
+                            <option>Tomatoes</option>
+                            <option>Paneer</option>
+                            <option>Pineapple</option>
+                            <option>Mushroom</option>
+                            <option>Green Olives</option>
+                            <option>Black Olives</option>
+                        </select>
+                        <!--Topping 4-->
+                        <select id="topping" name="topping" required>
+                            <option>None</option>
+                            <option>Onions</option>
+                            <option>Tomatoes</option>
+                            <option>Paneer</option>
+                            <option>Pineapple</option>
+                            <option>Mushroom</option>
+                            <option>Green Olives</option>
+                            <option>Black Olives</option>
+                        </select>
+                        <!--Topping 5-->
+                        <select id="topping" name="topping" required>
+                            <option>None</option>
+                            <option>Onions</option>
+                            <option>Tomatoes</option>
+                            <option>Paneer</option>
+                            <option>Pineapple</option>
+                            <option>Mushroom</option>
+                            <option>Green Olives</option>
+                            <option>Black Olives</option>
+                        </select>
+                        <!--Topping 6-->
+                        <select id="topping" name="topping" required>
+                            <option>None</option>
+                            <option>Onions</option>
+                            <option>Tomatoes</option>
+                            <option>Paneer</option>
+                            <option>Pineapple</option>
+                            <option>Mushroom</option>
+                            <option>Green Olives</option>
+                            <option>Black Olives</option>
+                        </select>
+                        <!--Topping 7-->
+                        <select id="topping" name="topping" required>
+                            <option>None</option>
+                            <option>Onions</option>
+                            <option>Tomatoes</option>
+                            <option>Paneer</option>
+                            <option>Pineapple</option>
+                            <option>Mushroom</option>
+                            <option>Green Olives</option>
+                            <option>Black Olives</option>
+                        </select>
+                    </fieldset>
+                </fieldset>
+                <br>
+                <br>
+                <!--Submit or Reset-->
+                <button type="submit" id="submit" name="submit" >Submit</button>
+                <button type="submit" id="submit" name="submit" >Reset</button>
+            </form>
+        </main>
+        <!--Footer-->
+        <footer>
+            <p><small>© 2022 Copyright MyPizza</small></p> 
+        </footer>  
+    </body>
+</html>
